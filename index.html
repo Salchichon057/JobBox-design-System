@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Design System - Documentación completa para desarrollo enterprise">
+	<title>Design System JobBox - Documentación Enterprise</title>
+	
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="css/variables.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/buttons.css">
+	<link rel="stylesheet" href="css/cards.css">
+	<link rel="stylesheet" href="css/forms.css">
+	<link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+	<!-- Sidebar Navigation -->
+	<aside class="sidebar">
+		<div class="sidebar__header">
+			<h1 class="sidebar__title">Design System JobBox</h1>
+			<p class="sidebar__version">v1.0.0</p>
+		</div>
+
+	<nav>
+		<div class="nav-section">
+			<div class="nav-section__title">Fundamentos</div>
+			<a href="#colores" class="nav-link active">Colores</a>
+			<a href="#tipografia" class="nav-link">Tipografía</a>
+			<a href="#espaciado" class="nav-link">Espaciado</a>
+		</div>
+
+		<div class="nav-section">
+			<div class="nav-section__title">Componentes</div>
+			<a href="#botones" class="nav-link">Botones</a>
+			<a href="#cards" class="nav-link">Cards</a>
+		<a href="#badges" class="nav-link">Badges</a>
+		<a href="#tablas" class="nav-link">Tablas</a>
+	</div>
+	</nav>
+</aside>	<!-- Main Content -->
+	<main class="main-content">
+		<!-- Page Header -->
+		<header class="page-header">
+			<h1 class="page-title">Design System</h1>
+			<p class="page-description">
+				Sistema de diseño para JobBox con componentes, patrones y guías de uso. 
+				Inspirado en Untitled UI y Material Design para garantizar consistencia, 
+				accesibilidad y una experiencia de usuario excepcional.
+			</p>
+		</header>
+
+		<!-- Sección: Colores Primarios -->
+		<section class="section" id="colores">
+			<h2 class="section-title">Colores Primarios</h2>
+			<p class="section-subtitle">
+				Colores principales de la marca. Utilícelos para elementos de interfaz críticos,
+				llamadas a la acción y componentes destacados.
+			</p>
+
+			<div class="color-grid">
+				<div class="color-item">
+					<div class="color-swatch" style="background: #c69fff;"></div>
+					<div class="color-details">
+						<div class="color-title">Lavanda</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#c69fff</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">198, 159, 255</span>
+						</div>
+						<div class="color-code">
+							<span class="color-label">HSL</span>
+							<span class="color-value">265, 100%, 81%</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="color-item">
+					<div class="color-swatch" style="background: #4ea5ff;"></div>
+					<div class="color-details">
+						<div class="color-title">Azul Cielo</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#4ea5ff</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">78, 165, 255</span>
+						</div>
+						<div class="color-code">
+							<span class="color-label">HSL</span>
+							<span class="color-value">209, 100%, 65%</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="color-item">
+					<div class="color-swatch" style="background: #3dffb3;"></div>
+					<div class="color-details">
+						<div class="color-title">Verde Menta</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#3dffb3</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">61, 255, 179</span>
+						</div>
+						<div class="color-code">
+							<span class="color-label">HSL</span>
+							<span class="color-value">156, 100%, 62%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección: Colores Secundarios -->
+		<section class="section">
+			<h2 class="section-title">Colores Secundarios</h2>
+			<p class="section-subtitle">
+				Colores complementarios que agregan variedad visual. Ideal para destacar 
+				información secundaria y crear jerarquía.
+			</p>
+
+			<div class="color-grid">
+				<div class="color-item">
+					<div class="color-swatch" style="background: #ffe63d;"></div>
+					<div class="color-details">
+						<div class="color-title">Amarillo</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#ffe63d</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">255, 230, 61</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="color-item">
+					<div class="color-swatch" style="background: #ffc3c0;"></div>
+					<div class="color-details">
+						<div class="color-title">Rosa Pastel</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#ffc3c0</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">255, 195, 192</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="color-item">
+					<div class="color-swatch" style="background: #a8d5f8;"></div>
+					<div class="color-details">
+						<div class="color-title">Azul Pastel</div>
+						<div class="color-code">
+							<span class="color-label">HEX</span>
+							<span class="color-value">#a8d5f8</span>
+							<button class="copy-btn">Copiar</button>
+						</div>
+						<div class="color-code">
+							<span class="color-label">RGB</span>
+							<span class="color-value">168, 213, 248</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección: Escala de Grises -->
+		<section class="section">
+			<h2 class="section-title">Escala de Grises</h2>
+			<p class="section-subtitle">
+				Paleta neutral para texto, bordes, fondos y elementos de interfaz.
+				Sistema de 10 tonos para máxima versatilidad.
+			</p>
+
+			<div class="gray-scale">
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #212121;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 900</div>
+						<div class="gray-hex">#212121</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #424242;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 800</div>
+						<div class="gray-hex">#424242</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #616161;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 700</div>
+						<div class="gray-hex">#616161</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #757575;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 600</div>
+						<div class="gray-hex">#757575</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #9e9e9e;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 500</div>
+						<div class="gray-hex">#9e9e9e</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #bdbdbd;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 400</div>
+						<div class="gray-hex">#bdbdbd</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #e0e0e0;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 300</div>
+						<div class="gray-hex">#e0e0e0</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #eeeeee;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 200</div>
+						<div class="gray-hex">#eeeeee</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+					<div class="gray-swatch" style="background: #f5f5f5; border: 1px solid #e0e0e0;"></div>
+					<div class="gray-info">
+						<div class="gray-name">Gray 100</div>
+						<div class="gray-hex">#f5f5f5</div>
+					</div>
+				</div>
+
+				<div class="gray-item">
+				<div class="gray-swatch" style="background: #fafafa; border: 1px solid #e0e0e0;"></div>
+				<div class="gray-info">
+					<div class="gray-name">Gray 50</div>
+					<div class="gray-hex">#fafafa</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sección: Tipografía -->
+	<section class="section" id="tipografia">
+		<h2 class="section-title">Tipografía</h2>
+		<p class="section-subtitle">
+			Sistema tipográfico basado en Inter, con escalas de tamaño y pesos consistentes.
+		</p>
+
+		<div class="showcase">
+			<div class="showcase__section">
+				<h3 class="showcase__title">Headings</h3>
+				<h1>Heading 1 - 48px</h1>
+				<h2>Heading 2 - 36px</h2>
+				<h3>Heading 3 - 30px</h3>
+				<h4>Heading 4 - 24px</h4>
+				<h5>Heading 5 - 20px</h5>
+				<h6>Heading 6 - 18px</h6>
+			</div>
+
+			<div class="showcase__section mt-8">
+				<h3 class="showcase__title">Body Text</h3>
+				<p style="font-size: var(--text-lg)">Large - 18px: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p style="font-size: var(--text-base)">Base - 16px: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p style="font-size: var(--text-sm)">Small - 14px: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p style="font-size: var(--text-xs)">Extra Small - 12px: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+
+			<div class="showcase__section mt-8">
+				<h3 class="showcase__title">Font Weights</h3>
+				<p style="font-weight: var(--font-normal)">Normal (400)</p>
+				<p style="font-weight: var(--font-medium)">Medium (500)</p>
+				<p style="font-weight: var(--font-semibold)">Semibold (600)</p>
+				<p style="font-weight: var(--font-bold)">Bold (700)</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sección: Espaciado -->
+	<section class="section" id="espaciado">
+		<h2 class="section-title">Espaciado</h2>
+		<p class="section-subtitle">
+			Sistema de espaciado consistente basado en múltiplos de 4px.
+		</p>
+
+		<div class="showcase">
+			<div class="showcase__section">
+				<h3 class="showcase__title">Spacing Scale</h3>
+				<div style="display: flex; flex-direction: column; gap: var(--space-4);">
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-1); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-1</code> - 4px</span>
+					</div>
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-2); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-2</code> - 8px</span>
+					</div>
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-4); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-4</code> - 16px</span>
+					</div>
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-6); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-6</code> - 24px</span>
+					</div>
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-8); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-8</code> - 32px</span>
+					</div>
+					<div style="display: flex; align-items: center; gap: var(--space-4);">
+						<div style="width: var(--space-12); height: 40px; background: var(--color-primary-sky-blue);"></div>
+						<span><code>space-12</code> - 48px</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sección: Botones -->
+	<section class="section" id="botones">
+		<h2 class="section-title">Botones</h2>
+		<p class="section-subtitle">
+				Sistema completo de botones con múltiples variantes y estados.
+				Inspirados en Untitled UI para una experiencia moderna y profesional.
+			</p>
+
+			<div class="showcase">
+				<!-- Primary Buttons -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Primary Buttons</h3>
+					<p class="showcase__label">Botones principales con fondo sólido y sombra</p>
+					<div class="flex gap-4">
+						<button class="btn btn--primary btn--sm">Small</button>
+						<button class="btn btn--primary btn--md">Medium</button>
+						<button class="btn btn--primary btn--lg">Large</button>
+						<button class="btn btn--primary btn--xl">Extra Large</button>
+					</div>
+				</div>
+
+				<!-- Secondary & Variants -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Color Variants</h3>
+					<p class="showcase__label">Diferentes colores según el contexto</p>
+					<div class="flex gap-4">
+						<button class="btn btn--primary">Primary</button>
+						<button class="btn btn--secondary">Secondary</button>
+						<button class="btn btn--success">Success</button>
+						<button class="btn btn--warning">Warning</button>
+						<button class="btn btn--danger">Danger</button>
+					</div>
+				</div>
+
+				<!-- Outlined Buttons -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Outlined Buttons</h3>
+					<p class="showcase__label">Botones con bordes, ideales para acciones secundarias</p>
+					<div class="flex gap-4">
+						<button class="btn btn--outlined">Default</button>
+						<button class="btn btn--outlined-primary">Primary</button>
+						<button class="btn btn--outlined-secondary">Secondary</button>
+					</div>
+				</div>
+
+				<!-- Ghost Buttons -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Ghost Buttons</h3>
+					<p class="showcase__label">Botones de texto sin fondo</p>
+					<div class="flex gap-4">
+						<button class="btn btn--ghost">Default</button>
+						<button class="btn btn--ghost-primary">Primary</button>
+					</div>
+				</div>
+
+				<!-- Soft Buttons -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Soft Buttons</h3>
+					<p class="showcase__label">Fondos sutiles y coloreados</p>
+					<div class="flex gap-4">
+						<button class="btn btn--soft-primary">Primary</button>
+						<button class="btn btn--soft-success">Success</button>
+						<button class="btn btn--soft-warning">Warning</button>
+						<button class="btn btn--soft-danger">Danger</button>
+					</div>
+				</div>
+
+				<!-- Icon Buttons -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Icon Buttons</h3>
+					<p class="showcase__label">Botones cuadrados para iconos</p>
+					<div class="flex gap-4">
+						<button class="btn btn--icon btn--primary btn--sm">+</button>
+						<button class="btn btn--icon btn--primary">✓</button>
+						<button class="btn btn--icon btn--primary btn--lg">→</button>
+					</div>
+				</div>
+
+				<!-- Button States -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Button States</h3>
+					<p class="showcase__label">Estados especiales</p>
+					<div class="flex gap-4">
+						<button class="btn btn--primary">Normal</button>
+						<button class="btn btn--primary" disabled>Disabled</button>
+						<button class="btn btn--primary btn--loading">Loading</button>
+					</div>
+				</div>
+
+				<!-- Button Group -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Button Groups</h3>
+					<p class="showcase__label">Grupos de botones unidos</p>
+					<div class="btn-group--attached">
+						<button class="btn btn--outlined-primary">Left</button>
+						<button class="btn btn--outlined-primary">Center</button>
+						<button class="btn btn--outlined-primary">Right</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección: Cards -->
+		<section class="section" id="cards">
+			<h2 class="section-title">Cards</h2>
+			<p class="section-subtitle">
+				Componentes de tarjetas versátiles para mostrar contenido agrupado.
+				Múltiples variantes para diferentes casos de uso.
+			</p>
+
+			<div class="showcase">
+				<!-- Basic Cards -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Basic Cards</h3>
+					<div class="cards-grid">
+						<div class="card card--interactive">
+							<div class="card__header--image">
+								<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1472" alt="Technology" class="card__header-image">
+							</div>
+							<div class="card__body">
+								<h4 class="card__title">Card Title</h4>
+								<p class="card__text">
+									Este es un ejemplo de tarjeta con imagen en el header siguiendo el diseño de Untitled UI.
+								</p>
+								<div class="card__footer--actions">
+									<button class="btn btn--primary btn--sm">Action</button>
+									<button class="btn btn--ghost btn--sm">Cancel</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="card card--elevated">
+							<div class="card__body">
+								<div class="card__badge card--badge--primary">Featured</div>
+								<h4 class="card__title">Elevated Card</h4>
+								<p class="card__text">
+									Tarjeta elevada con sombra y badge destacado en la parte superior.
+								</p>
+								<div class="card__footer--actions mt-4">
+									<button class="btn btn--outlined-primary btn--sm">Learn More</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card__body">
+								<div class="card__avatar">DS</div>
+								<h4 class="card__title">Avatar Card</h4>
+								<p class="card__text">
+									Tarjeta con avatar circular, perfecta para perfiles o usuarios.
+								</p>
+							</div>
+							<div class="card__footer">
+								<button class="btn btn--ghost-primary btn--sm btn--full">View Profile</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pricing Cards -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Pricing Cards</h3>
+					<div class="cards-grid">
+						<div class="card card--pricing">
+							<div class="card__body">
+								<div class="card__badge card--badge--gray">Starter</div>
+								<div class="card__price">
+									$9<span class="card__price-period">/mes</span>
+								</div>
+								<p class="card__text">Perfecto para comenzar</p>
+								
+								<div class="card__features">
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>10 proyectos</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>5 GB almacenamiento</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Soporte por email</span>
+									</div>
+								</div>
+							</div>
+							<div class="card__footer">
+								<button class="btn btn--outlined btn--full">Comenzar</button>
+							</div>
+						</div>
+
+						<div class="card card--pricing card--featured">
+							<div class="card__body">
+								<div class="card__badge card--badge--primary">Popular</div>
+								<div class="card__price">
+									$29<span class="card__price-period">/mes</span>
+								</div>
+								<p class="card__text">Para equipos profesionales</p>
+								
+								<div class="card__features">
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Proyectos ilimitados</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>100 GB almacenamiento</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Soporte prioritario</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Análisis avanzados</span>
+									</div>
+								</div>
+							</div>
+							<div class="card__footer">
+								<button class="btn btn--primary btn--full">Comenzar</button>
+							</div>
+						</div>
+
+						<div class="card card--pricing">
+							<div class="card__body">
+								<div class="card__badge card--badge--warning">Enterprise</div>
+								<div class="card__price">
+									Custom
+								</div>
+								<p class="card__text">Soluciones personalizadas</p>
+								
+								<div class="card__features">
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Todo de Popular</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Almacenamiento ilimitado</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Soporte 24/7</span>
+									</div>
+									<div class="card__feature-item">
+										<span class="card__feature-icon">✓</span>
+										<span>Gestor de cuenta dedicado</span>
+									</div>
+								</div>
+							</div>
+							<div class="card__footer">
+								<button class="btn btn--outlined btn--full">Contactar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Stat Cards -->
+				<div class="showcase__section">
+					<h3 class="showcase__title">Stat Cards</h3>
+					<div class="cards-grid">
+						<div class="card card--stat">
+							<div class="card__stat-label">Total de Usuarios</div>
+							<div class="card__stat-value">12,543</div>
+							<div class="card__stat-change card__stat-change--positive">↑ 12.5%</div>
+						</div>
+
+						<div class="card card--stat">
+							<div class="card__stat-label">Ingresos</div>
+							<div class="card__stat-value">$45,231</div>
+							<div class="card__stat-change card__stat-change--positive">↑ 8.2%</div>
+						</div>
+
+						<div class="card card--stat">
+							<div class="card__stat-label">Conversiones</div>
+							<div class="card__stat-value">2,543</div>
+							<div class="card__stat-change card__stat-change--negative">↓ 3.1%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección: Badges -->
+		<section class="section" id="badges">
+			<h2 class="section-title">Badges</h2>
+			<p class="section-subtitle">
+				Indicadores visuales compactos para estados, categorías y notificaciones.
+			</p>
+
+			<div class="showcase">
+				<div class="showcase__section">
+					<h3 class="showcase__title">Badge Variants</h3>
+					<div class="flex gap-4">
+						<span class="badge badge--primary">Primary</span>
+						<span class="badge badge--success">Success</span>
+						<span class="badge badge--warning">Warning</span>
+						<span class="badge badge--error">Error</span>
+						<span class="badge badge--gray">Gray</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sección: Tablas -->
+		<section class="section" id="tablas">
+			<h2 class="section-title">Tablas</h2>
+			<p class="section-subtitle">
+				Tablas responsivas y bien estructuradas para presentar datos tabulares.
+			</p>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Color</th>
+						<th>Uso Principal</th>
+						<th>Contexto</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<span class="badge badge--primary">Lavanda</span>
+						</td>
+						<td>Acciones primarias, headers</td>
+						<td>Botones principales, navegación, elementos destacados</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="badge badge--primary">Azul Cielo</span>
+						</td>
+						<td>Links, acciones secundarias</td>
+						<td>Enlaces de texto, botones secundarios, iconos interactivos</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="badge badge--success">Verde Menta</span>
+						</td>
+						<td>Estados de éxito</td>
+						<td>Confirmaciones, mensajes positivos, badges de éxito</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="badge badge--warning">Amarillo</span>
+						</td>
+					<td>Advertencias</td>
+					<td>Alertas importantes, elementos promocionales</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+</main>
+
+<!-- Toast Notification -->
+<div class="toast"></div>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
