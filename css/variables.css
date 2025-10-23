@@ -10,14 +10,18 @@
   --color-cyan: #4ad7cf;
   --color-yellow: #f8db3a;
   --color-blue: #4d79e1;
-  --color-red: #ef4444;
+  --color-red: #ff715b;
   
-  /* === Pastel/Accent Colors === */
+  /* === Accent Color === */
+  --color-accent: #83bbba;
+  
+  /* === Pastel/Light Colors === */
   --color-purple-light: #e8e3fb;
   --color-cyan-light: #d4f4f1;
   --color-yellow-light: #fef6d9;
   --color-blue-light: #dce6f9;
-  --color-red-light: #fee2e2;
+  --color-red-light: #ffe8e4;
+  --color-accent-light: #e3f1f0;
   
   /* === Grays === */
   --gray-900: #212121;

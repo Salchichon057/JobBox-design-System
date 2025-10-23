@@ -152,12 +152,17 @@
 
 .badge--warning {
   background: var(--color-yellow);
-  color: var(--white);
+  color: var(--gray-900);
 }
 
 .badge--error,
 .badge--danger {
   background: var(--color-red);
+  color: var(--white);
+}
+
+.badge--accent {
+  background: var(--color-accent);
   color: var(--white);
 }
 
