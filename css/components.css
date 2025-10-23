@@ -161,9 +161,25 @@
   color: var(--white);
 }
 
-.badge--accent {
-  background: var(--color-accent);
+.badge--accent,
+.badge--accent-teal {
+  background: var(--color-accent-teal);
   color: var(--white);
+}
+
+.badge--accent-sky {
+  background: var(--color-accent-sky);
+  color: var(--gray-900);
+}
+
+.badge--accent-lavender {
+  background: var(--color-accent-lavender);
+  color: var(--gray-900);
+}
+
+.badge--accent-peach {
+  background: var(--color-accent-peach);
+  color: var(--gray-900);
 }
 
 .badge--gray {

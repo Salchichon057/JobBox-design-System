@@ -12,8 +12,12 @@
   --color-blue: #4d79e1;
   --color-red: #ff715b;
   
-  /* === Accent Color === */
-  --color-accent: #83bbba;
+  /* === Accent Colors === */
+  --color-accent-teal: #83bbba;
+  --color-accent-sky: #a9d6f9;
+  --color-accent-lavender: #cec7f6;
+  --color-accent-sage: #83bbba;
+  --color-accent-peach: #f4c2b4;
   
   /* === Pastel/Light Colors === */
   --color-purple-light: #e8e3fb;
@@ -21,7 +25,13 @@
   --color-yellow-light: #fef6d9;
   --color-blue-light: #dce6f9;
   --color-red-light: #ffe8e4;
-  --color-accent-light: #e3f1f0;
+  
+  /* === Accent Light Colors === */
+  --color-accent-teal-light: #e3f1f0;
+  --color-accent-sky-light: #e8f4fd;
+  --color-accent-lavender-light: #f0edfb;
+  --color-accent-sage-light: #e3f1f0;
+  --color-accent-peach-light: #fceee9;
   
   /* === Grays === */
   --gray-900: #212121;
