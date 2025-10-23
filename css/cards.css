@@ -54,7 +54,7 @@
 }
 
 .card__header--gradient {
-  background: linear-gradient(135deg, var(--color-primary-lavender) 0%, var(--color-primary-sky-blue) 100%);
+  background: linear-gradient(135deg, var(--color-purple) 0%, var(--color-blue) 100%);
   color: var(--white);
   border-bottom: none;
   padding: var(--space-8);
@@ -148,18 +148,24 @@
 }
 
 .card__badge--primary {
-  background: var(--color-primary-sky-blue);
+  background: var(--color-purple);
   color: var(--white);
 }
 
 .card__badge--success {
-  background: var(--color-success-light);
-  color: var(--color-success);
+  background: var(--color-cyan);
+  color: var(--white);
 }
 
 .card__badge--warning {
-  background: var(--color-warning-light);
-  color: var(--color-warning);
+  background: var(--color-yellow);
+  color: var(--gray-900);
+}
+
+.card__badge--danger,
+.card__badge--error {
+  background: var(--color-red);
+  color: var(--white);
 }
 
 /* === Card Avatar === */
@@ -184,7 +190,7 @@
 }
 
 .card--pricing.card--featured {
-  border: 2px solid var(--color-primary-sky-blue);
+  border: 2px solid var(--color-purple);
   box-shadow: var(--shadow-lg);
 }
 
@@ -218,7 +224,7 @@
 .card__feature-icon {
   width: 20px;
   height: 20px;
-  color: var(--color-success);
+  color: var(--color-cyan);
 }
 
 /* === Testimonial Card === */
@@ -261,7 +267,8 @@
 /* === Stat Card === */
 .card--stat {
   padding: var(--space-6);
-  background: linear-gradient(135deg, rgba(78, 165, 255, 0.05) 0%, rgba(198, 159, 255, 0.05) 100%);
+  /* background: linear-gradient(135deg, rgba(78, 165, 255, 0.05) 0%, rgba(198, 159, 255, 0.05) 100%); */
+  background: var(--gray-50);
 }
 
 .card__stat-label {
@@ -284,11 +291,11 @@
 }
 
 .card__stat-change--positive {
-  color: var(--color-success);
+  color: var(--color-cyan);
 }
 
 .card__stat-change--negative {
-  color: var(--color-error);
+  color: var(--color-yellow);
 }
 
 /* === Card Grid === */

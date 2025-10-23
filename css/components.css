@@ -141,23 +141,24 @@
 }
 
 .badge--primary {
-  background: var(--color-primary-sky-blue);
+  background: var(--color-purple);
   color: var(--white);
 }
 
 .badge--success {
-  background: var(--color-success-light);
-  color: var(--color-success);
+  background: var(--color-cyan);
+  color: var(--white);
 }
 
 .badge--warning {
-  background: var(--color-warning-light);
-  color: var(--color-warning);
+  background: var(--color-yellow);
+  color: var(--white);
 }
 
-.badge--error {
-  background: var(--color-error-light);
-  color: var(--color-error);
+.badge--error,
+.badge--danger {
+  background: var(--color-red);
+  color: var(--white);
 }
 
 .badge--gray {
