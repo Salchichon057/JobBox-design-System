@@ -51,13 +51,13 @@
 
 /* === Primary Button (Purple) === */
 .btn--primary {
-  background: var(--color-purple);
+  background: var(--color-primary);
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
 
 .btn--primary:hover {
-  background: #7153d9;
+  background: var(--color-primary-dark);
   box-shadow: var(--shadow-base);
   transform: translateY(-1px);
 }
@@ -189,8 +189,8 @@
 
 .btn--outlined-primary {
   background: var(--white);
-  border-color: var(--color-purple);
-  color: var(--color-purple);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .btn--outlined-primary:hover {
@@ -219,17 +219,17 @@
 
 .btn--ghost-primary {
   background: transparent;
-  color: var(--color-purple);
+  color: var(--color-primary);
 }
 
 .btn--ghost-primary:hover {
-  background: var(--color-purple-light);
+  background: var(--color-primary-light);
 }
 
 /* === Soft Buttons === */
 .btn--soft-primary {
-  background: var(--color-purple-light);
-  color: var(--color-purple);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 .btn--soft-primary:hover {

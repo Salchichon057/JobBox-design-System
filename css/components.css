@@ -141,7 +141,7 @@
 }
 
 .badge--primary {
-  background: var(--color-purple);
+  background: var(--color-primary);
   color: var(--white);
 }
 
